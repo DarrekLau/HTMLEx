@@ -1,19 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>Advertisement</title>
+  </head>
+  <body>
     <main>
-<div>
-    This is a advertisement holder for the following product. <br>
-    Please click the information for further information.
-    <a href="https://www.amazon.sg/"> <img id="amazon" width="200px" alt="google logo" src="google.png"/></a>
-</div>
-</main>
-    
-</body>
+        <div class="align">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="bio.html">
+                        Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="picture.html">My Pictures</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        More
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="input.html">Input Form</a></li>
+                        <li>
+                          <a class="dropdown-item" href="ad.html">Advertisement</a>
+                        </li>
+                        <li><hr class="dropdown-divider" /></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex">
+                    <a href="https://www.google.com/" target="_blank">
+                      <img class="blink" width="200px" src="photo/google.png"
+                    /></a>
+                  </form>
+                </div>
+              </div>
+            </nav>
+      <div>
+        This is a advertisement holder for the following product. <br />
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="photo/toy.jpg" class="card-img-top" alt="toy">
+                <div class="card-body">
+                  <h5 class="card-title">Toys</h5>
+                  <a href="https://www.amazon.sg/s?k=toy&ref=nb_sb_noss_2" target="_blank"><button class="btn btn-primary" type="button">Click here to Buy</button></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="photo/clothing.jpg" class="card-img-top" alt="clothing">
+                <div class="card-body">
+                  <h5 class="card-title">Clothing</h5>
+                  <a href="https://www.amazon.sg/s?k=clothing&ref=nb_sb_noss_1" target="_blank"><button class="btn btn-primary" type="button">Click here to Buy</button></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="photo/food.jpg" class="card-img-top" alt="Food">
+                <div class="card-body">
+                  <h5 class="card-title">Food</h5>
+                  <a href="https://www.amazon.sg/s?k=grocery&crid=15ESWLY1Q24SC&sprefix=groce%2Caps%2C364&ref=nb_sb_ss_ts-doa-p_2_5" target="_blank"><button class="btn btn-primary" type="button">Click here to Buy</button></a>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+      </div>
+    </main>
+  </body>
+  <script
+  src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+  integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+  integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+  crossorigin="anonymous"
+></script>
 </html>

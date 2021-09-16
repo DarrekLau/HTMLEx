@@ -4,34 +4,157 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stylesheet.css" />
     <title>Bio</title>
-    <style>
-      body {
-        background-image: url("./photo.png");
-        background-size: cover;
-      }
-      .align {
-        text-align: center;
-        font-size: 28px;
-      }
-      .head{
-          color:blue;
-      }
-      .para {
-        color: white;
-      }
-      
-    </style>
   </head>
   <body>
     <main>
       <div class="align">
-        <header class="head"><h1>My BIO</h1></header>
-        <p>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">
+                    Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="picture.html">My Pictures</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    More
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a class="dropdown-item" href="input.html">Input Form</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="ad.html">Advertisement</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <a href="https://www.google.com/" target="_blank">
+                  <img class="blink" width="200px" src="photo/google.png"
+                /></a>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div
+            id="myCarousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+            data-interval="200"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="photo/photo2.jpg"
+                  class="d-block w-100"
+                  alt="photo2"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="photo/photo3.jpg"
+                  class="d-block w-100"
+                  alt="photo3"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="photo/photo4.jpg"
+                  class="d-block w-100"
+                  alt="photo4"
+                />
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="font-effect-fire-animation">
+          <header class="head"><h1>MY BIO</h1></header>
+        </div>
+
+        <p class="biofont">
           This is a personal page about me. I have no idea what I want to write
           so this is what I am going to write
-        </p>
-        <p class ="para">
+          <br />
+
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit
           amet velit risus. Class aptent taciti sociosqu ad litora torquent per
           conubia nostra, per inceptos himenaeos. Sed sed tortor fringilla,
@@ -77,4 +200,19 @@
       </div>
     </main>
   </body>
+
+  <footer class="foot">
+    CopyRight of myself. Please do not distribte or publish without consent
+  </footer>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+    integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+    crossorigin="anonymous"
+  ></script>
 </html>

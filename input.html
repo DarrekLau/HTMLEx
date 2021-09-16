@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Page</title>
+  </head>
+  <body>
+    <main>
+      <form>
+        <h1>Please fill in the information below:</h1>
+        <br />
+        First Name:<br />
+        <input type="text" name="firstName" /><br />
+        Last Name:<br />
+        <input type="text" name="lastName" /><br />
+        Address:<br />
+        <input type="text" name="address" />
+        <br />
+        City:<br />
+        <input type="text" name="=city" /><br />
+        <label for="cars">Choose a Country:</label><br />
+        <select id="cars" name="cars">
+          <option value="Singapore">Singapore</option>
+          <option value="Malaysia">Malaysia</option>
+          <option value="UK">UK</option>
+          <option value="USA">USA</option>
+        </select>
+        <input type="submit" /><br />
+        <!-- <input type="text" name="=country" /><br> -->
+        Phone:<br />
+        <input type="number" name="phone" />
+        <br />
+        Email:<br />
+        <input type="email" name="email" />
+        <br />
+        Short Bio:<br />
+        <textarea name="biography">Enter your short biography here...</textarea>
+        <br />
+        Photo:<br />
+        <input type="file" />
+        <br />
+        <br />
+        <button type="reset">reset</button>
+        <button type="submit">send</button>
+      </form>
+    </main>
+  </body>
+</html>

@@ -11,4 +11,4 @@ Pic Page
 ![alt text](https://github.com/DarrekLau/HTMLEx/blob/master/photo/Pic%20Page.png)
 
 Input Page
-![alt text]
+![alt text](https://github.com/DarrekLau/HTMLEx/blob/master/photo/Input%20Page.png)

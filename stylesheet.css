@@ -23,6 +23,16 @@ body {
   font-size: large;
 }
 
+/* this is for the pic header font */
+.headpic{
+  color: hotpink;
+}
+
+/* this is for the header of the ad page */
+.headadv{
+  color: darkmagenta;
+}
+
 /* this is for the para tag */
 p {
   padding: 10px;
@@ -40,7 +50,7 @@ p {
 }
 
 /* this is for the color of the header */
-.head {
+.headbio {
   color: blue;
 }
 

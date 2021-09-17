@@ -5,7 +5,7 @@ Bio Page
 ![alt text](https://github.com/DarrekLau/HTMLEx/blob/master/photo/bioPage.png)
 
 Ad Page 
-![alt text]
+![alt text](https://github.com/DarrekLau/HTMLEx/blob/master/photo/Ad%20Page.png)
 
 Pic Page 
 ![alt text]

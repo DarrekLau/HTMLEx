@@ -1,5 +1,5 @@
 # HTML Ex with a few link to different pages
-Using HTML, Bootstrap, Google Font and CSS.
+Using HTML, CSS, Bootstrap and Google Font.
 
 Bio Page 
 ![alt text](https://github.com/DarrekLau/HTMLEx/blob/master/photo/Bio%20Page.png)

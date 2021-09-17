@@ -2,7 +2,7 @@
 Using HTML, Bootstrap, Google Font and CSS.
 
 Bio Page 
-![alt text](https://github.com/DarrekLau/HTMLEx/blob/master/photo/bioPage.png)
+![alt text](https://github.com/DarrekLau/HTMLEx/blob/master/photo/Bio%20Page.png)
 
 Ad Page 
 ![alt text](https://github.com/DarrekLau/HTMLEx/blob/master/photo/Ad%20Page.png)

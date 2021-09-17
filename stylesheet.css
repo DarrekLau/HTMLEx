@@ -12,24 +12,24 @@ body {
 
 /* this is for the Bio font */
 .biofont {
-  font-family:'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
   font-weight: bold;
   font-size: larger;
 }
 
 .parafont {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: large;
 }
 
 /* this is for the pic header font */
-.headpic{
+.headpic {
   color: hotpink;
 }
 
 /* this is for the header of the ad page */
-.headadv{
+.headadv {
   color: darkmagenta;
 }
 
@@ -108,4 +108,3 @@ input[type="file"] {
   padding-left: 220px;
   padding-bottom: 20px;
 }
-

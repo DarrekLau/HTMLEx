@@ -8,7 +8,7 @@ Ad Page
 ![alt text](https://github.com/DarrekLau/HTMLEx/blob/master/photo/Ad%20Page.png)
 
 Pic Page 
-![alt text]
+![alt text](https://github.com/DarrekLau/HTMLEx/blob/master/photo/Pic%20Page.png)
 
 Input Page
 ![alt text]

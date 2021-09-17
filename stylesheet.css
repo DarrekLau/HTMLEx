@@ -12,7 +12,15 @@ body {
 
 /* this is for the Bio font */
 .biofont {
-  font-family: "Shadows Into Light", cursive;
+  font-family:'Satisfy', cursive;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.parafont {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: large;
 }
 
 /* this is for the para tag */

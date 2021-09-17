@@ -49,6 +49,7 @@ p {
   color: red;
   text-align: center;
   font-style: italic;
+  font-weight: bold;
 }
 
 /* this is for carousel */
